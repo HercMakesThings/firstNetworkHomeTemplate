@@ -31,8 +31,9 @@ html, body{
 
 #nonhomepage{
   position: relative;
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  overflow-x: hidden;
 }
 
 /*************************************************
@@ -346,6 +347,14 @@ footer a{
 .footerContact a{
   text-decoration: none;
   color: #fff;
+}
+
+/*************************************************
+************NONHOME SPECIFIC styles***************
+*************************************************/
+
+.mainarea{
+  height: 600px;
 }
 
 
