@@ -2,6 +2,7 @@
 *****************general css**********************
 *************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap');
 
 *{
   margin: 0;
@@ -12,9 +13,11 @@ html, body{
   margin: 0;
   height: 100%;
   max-width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 /*  overflow-x: hidden;*/
 }
+
 
 #homepage{
   position: relative;
@@ -36,16 +39,20 @@ html, body{
 ***************Top Landing Section css************
 *************************************************/
 
-#top-title{
+#toptitle{
   position: absolute;
-  top: 30%;
+  bottom: 25px;
   left: 5%;
+  color: white;
+  z-index: 3;
+  font-weight: 700;
 }
 
 .topsec nav{
   position: relative;
   z-index: 2;
   border-bottom: 1px solid rgba(144,144,144,0.5);
+  justify-content: flex-start;
 }
 
 .topsec nav ul{
@@ -60,6 +67,7 @@ html, body{
   margin-right: 15px;
   padding-bottom: 15px;
   border-bottom: solid 3px rgba(255,255,255,0);
+  font-size: 1.3em;
 }
 
 .topsec nav ul li:hover{
