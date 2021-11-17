@@ -1,7 +1,7 @@
 /*************************************************
 *****************general css**********************
 *************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap');
 
 *{
@@ -46,6 +46,10 @@ html, body{
   left: 5%;
   color: white;
   z-index: 3;
+}
+
+#toptitle h1{
+  font-size: 3em;
   font-weight: 700;
 }
 
@@ -69,6 +73,7 @@ html, body{
   padding-bottom: 15px;
   border-bottom: solid 3px rgba(255,255,255,0);
   font-size: 1.3em;
+  font-weight: 700;
 }
 
 .topsec nav ul li:hover{
@@ -84,7 +89,7 @@ html, body{
 .topsec{
   position: relative;
   background-image: url('../media/firstlandingbanner1.jpg');
-  min-height: 250px;
+  min-height: 45vh;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -147,7 +152,7 @@ html, body{
   text-align: center;
   /*padding: 45px;*/
   color: #fff;
-  background-image: url('../media/whiteboard.jpg');
+  /*background-image: url('../media/whiteboard.jpg');*/
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -191,7 +196,7 @@ html, body{
   text-align: center;
   /*padding: 45px;*/
   color: #fff;
-  background-image: url('../media/whiteboard.jpg');
+  /*background-image: url('../media/whiteboard.jpg');*/
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -237,7 +242,7 @@ html, body{
   text-align: center;
   /*padding: 45px;*/
   color: #fff;
-  background-image: url('../media/laptop1.jpg');
+  /*background-image: url('../media/laptop1.jpg');*/
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
